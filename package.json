@@ -1,0 +1,24 @@
+{
+  "name": "ratings_viewer",
+  "version": "1.0.0",
+  "description": "Use imdb ratings info to graph out tv show ratings by season",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ratings_viewer"
+  },
+  "author": "Mike Cook",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "node": "^15.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-plugin-react": "^7.23.2"
+  }
+}
